@@ -1,9 +1,13 @@
 body{
 	margin:0;
+	height:100%;
+	width:100%;
+
 }
 nav{
 	height:150px;
 	width:100%;
+	padding-bottom:10px;
 	}
 	.logo{
 		height:100px;
@@ -12,12 +16,15 @@ nav{
 	.nav-list{
 		height:50px;
 		width:100%;
+
 	}
+
 
 .main-banner{
 	height:600px;
-	width:100%;
-	background:blue;
+	width:1200px;
+	
+	
 }
 .logo-image{
 	text-align:center;
@@ -32,11 +39,13 @@ nav{
 .list li{
 	display:inline;
 	margin-right:100px;
+
 }
 .list a{
 
 	text-decoration-line:none;
 	color:black;
+	transition:2s;
 }
 .list a:hover{
 	background:grey;
@@ -53,7 +62,43 @@ nav{
 .nav-list{
 	text-align:center;
 }
-.main-video{
-	height:300px;
-	width:300px;
+.main-video video{
+	height:auto;
+	width:1200px;
+	margin-bottom:0;
+	
 }
+.home-Wrapper{
+	width:1200px;
+	margin:0 auto;
+}
+
+.addBtn-container {
+   position:absolute;
+    bottom:0;
+    left:43%;
+    background: rgba(0, 0, 0, 0.4);
+    color: #f1f1f1;
+    width: 150px;
+    height:30px;
+    padding: 20px;
+    border-radius:10px 10px 10px 10px;
+    transition:2s;
+
+}
+.addBtn {
+	font-size:25px;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;	
+}
+
+.addBtn-container:hover{
+	transition:2s;
+	background: rgba(0, 0, 0, 0.8);
+	font-weight: bold;
+	font-size:30px;
+	cursor:pointer;
+
+}
+ 
+
