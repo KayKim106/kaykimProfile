@@ -1,0 +1,59 @@
+body{
+	margin:0;
+}
+nav{
+	height:150px;
+	width:100%;
+	}
+	.logo{
+		height:100px;
+		width:100%;
+	}
+	.nav-list{
+		height:50px;
+		width:100%;
+	}
+
+.main-banner{
+	height:600px;
+	width:100%;
+	background:blue;
+}
+.logo-image{
+	text-align:center;
+	font-size:30px;
+	font-family: 'Quicksand', sans-serif;
+}
+.list li{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+.list li{
+	display:inline;
+	margin-right:100px;
+}
+.list a{
+
+	text-decoration-line:none;
+	color:black;
+}
+.list a:hover{
+	background:grey;
+	transition:1s;
+	padding:15px;
+	border-radius:50%;
+	background:black;
+	color:white;
+	font-weight: bold;
+}
+.list ul{
+	list-style-type: none;
+}
+.nav-list{
+	text-align:center;
+}
+.main-video{
+	height:300px;
+	width:300px;
+}
