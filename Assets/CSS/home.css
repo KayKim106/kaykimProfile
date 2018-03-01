@@ -96,6 +96,7 @@ nav{
     border-radius:10px 10px 10px 10px;
     transition:2s;
 
+
 }
 .addBtn {
 	font-size:25px;
@@ -203,11 +204,7 @@ h2{
 
 #HTML5bar,
 #cssbar {
-    width: 75%;
-}
 
-#javascriptbar {
-    width: 65%;
 }
 #nodebar {
     width: 60%;
@@ -265,13 +262,7 @@ overflow:hidden;
     font-weight: bold;
 }
 .contact-group{
-margin-left:30px;
-}
-.menu, .contactinfo, .social, .info{
-    width:25%;
-    float:left;
-    height:300px;
-}
+
 #contact img{
     width:50px;
     height:50px;
@@ -279,21 +270,19 @@ margin-left:30px;
     margin-bottom: 10px;
 
 }
-#contact ul{
-    text-decoration:none;
-    list-style-type: none;
+
     }
     #contact{
         color:white;
         font-family: 'Quicksand', sans-serif;
     }
 .emailAdd, .phonnum{
-    float:right;
+
     line-height: 50px;
     margin-right:70px;
 }
 .phonnum{
-  
+
     margin-right:120px;
 }
 .menu a{
@@ -305,5 +294,3 @@ margin-left:30px;
     text-align:center;
     margin-bottom:10px;
 }
-/*contact end*/
-
